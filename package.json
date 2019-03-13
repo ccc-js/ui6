@@ -1,0 +1,36 @@
+{
+  "name": "ui6",
+  "version": "0.0.1",
+  "description": "A User Interface Framework for Browser, Desktop and Mobile Device",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "build": "browserify ./src/export.js -o ./dist/ui6.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ccc-js/ui6.git"
+  },
+  "keywords": [
+    "UI",
+    "User",
+    "Interface",
+    "Desktop",
+    "Mobile",
+    "Browser"
+  ],
+  "author": "ccckmit",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ccc-js/ui6/issues"
+  },
+  "homepage": "https://github.com/ccc-js/ui6#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "koa": "^2.7.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-logger": "^3.2.0",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0"
+  }
+}
